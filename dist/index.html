@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<div class="header">
+    NewsApi
+    <form id="form">
+        <label for="query"> Поиск
+            <input id="query" type="search" class="search"/>
+            <input type="submit" value="Search"/>
+        </label>
+    </form>
+
+</div>
+<section class="main">
+    <select name="selection" id="options" class="selecion">
+        <option disabled> Выберите источник</option>
+    </select>
+
+</section>
+
+<div id="root"></div>
+
+<div class="footer">
+    <a href="https://newsapi.org" target="_blank">Powered by NEWS API</a>
+</div>
+<div id="loadMore" class="load-more"> show more</div>
+<script src="./main.js"></script>
+<script></script>
+
+</body>
+</html>
